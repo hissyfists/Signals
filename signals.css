@@ -1,0 +1,512 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #369;
+    text-decoration: none;
+}
+section {
+    display: block;
+    margin: 30px auto;
+    width: 825px;
+}
+hr {
+    background: url("img-hr.png") no-repeat scroll 50% 50% white;
+    border: 0 none;
+    clear: both;
+    color: transparent;
+    height: 12px;
+}
+sup {
+    color: #999;
+    font-size: 11px;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CrimsonSemiBold";
+    src: url("Crimson-Semibold.otf");
+}
+@font-face {
+    font-family: "CrimsonRoman";
+    src: url("Crimson-Roman.otf");
+}
+nav {
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    height: 48px;
+    min-width: 100%;
+}
+nav ul {
+    bottom: 2px;
+    float: right;
+    margin: 12px 18px;
+    padding: 10px 30px;
+    position: relative;
+    right: 1px;
+}
+nav li {
+    color: #369;
+    display: inline;
+    font-size: 12px;
+    margin: 15px 5px 15px 6px;
+    padding: 5px 4px;
+}
+nav li a:hover {
+    color: #18afe0;
+}
+.signin {
+    color: #18afe0;
+}
+.signin:hover {
+    color: #369;
+}
+header {
+    clear: both;
+    font-family: "CrimsonSemiBold","Times New Roman",Georgia,serif;
+    height: 163px;
+    margin: 0 auto;
+    padding: 6px 0;
+    text-align: center;
+    width: 829px;
+}
+header h1 {
+    clear: both;
+    color: #232323;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    line-height: 1em;
+    margin: 10px 0 20px;
+}
+header h5 {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+.products {
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    height: 288px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.products h3 {
+    color: #369;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+}
+.products h3 span {
+    text-decoration: underline;
+}
+.products h4 {
+    color: #c00;
+    font-size: 14px;
+    margin: 5px 0 10px;
+}
+.products p {
+    color: #222;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin: 5px 0;
+}
+.products a {
+    background: -moz-linear-gradient(center top , white, #efefef) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #efefef;
+    float: left;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    left: 75px;
+    margin: 15px 20px 5px;
+    padding: 20px 10px 10px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+    width: 160px;
+}
+.customers {
+    margin-bottom: 50px;
+}
+.customers h2 {
+    color: #232323;
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+    text-align: center;
+}
+.customers p {
+    color: #666;
+    font-family: "CrimsonRoman","Times New Roman",Georgia,serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0 0 1em;
+    text-align: left;
+}
+.meet {
+    margin-left: -125px;
+    margin-top: -100px;
+    position: absolute;
+}
+.meet a {
+    background: url("img-customers.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 104px;
+    text-indent: -1000em;
+    width: 143px;
+}
+.meet a:hover {
+    background-position: 0 100%;
+}
+.meet p {
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: center;
+}
+.meet p:hover {
+    color: #69c;
+    text-decoration: underline;
+}
+.arrow-left {
+    height: 36px;
+    position: relative;
+    top: -35px;
+    width: 69px;
+}
+.globe {
+    float: right;
+    vertical-align: top;
+}
+.manifesto {
+    margin-bottom: 50px;
+    margin-top: 0;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.manifesto h2 {
+    color: #232323;
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+    margin: 30px 0;
+    text-align: center;
+}
+.column {
+    color: #222;
+    float: left;
+    font-family: "CrimsonRoman","Times New Roman",Georgia,serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-right: 40px;
+    text-align: center;
+    width: 380px;
+}
+.column-end {
+    color: #222;
+    float: left;
+    font-family: "CrimsonRoman","Times New Roman",Georgia,serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-right: 0;
+    text-align: center;
+    width: 380px;
+}
+.manifesto h3 {
+    color: #ccc;
+    float: left;
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+    margin: -10px 15px 0 0;
+    padding-left: 5px;
+    width: 25px;
+}
+.manifesto h4 {
+    color: #c00;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: left;
+}
+.manifesto p {
+    color: #222;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin: 0 0 0 45px;
+    text-align: left;
+}
+.rework {
+    height: 500px;
+}
+.rework h2 {
+    color: #232323;
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+    margin: 30px 0;
+    text-align: center;
+}
+.book {
+    float: left;
+    height: 400px;
+    width: 293px;
+}
+.quotes {
+    color: #222;
+    font-family: "CrimsonRoman","Times New Roman",Georgia,serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 5px;
+    text-align: center;
+}
+.quotes h3 {
+    color: #888;
+    font-family: "CrimsonRomanItalic","Times New Roman",Georgia,serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 35px 0 10px;
+}
+.quotes p {
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+.arrow-right {
+    height: 36px;
+    left: 750px;
+    position: relative;
+    top: -465px;
+    width: 69px;
+}
+.crumple {
+    height: 145px;
+    left: 800px;
+    position: relative;
+    top: -530px;
+    width: 143px;
+}
+.crumple p {
+    color: #222;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 10px;
+    line-height: 1.5em;
+    margin: 0;
+    text-align: center;
+}
+.crumple p:hover {
+    color: #69c;
+    text-decoration: underline;
+}
+.offerings h2 {
+    color: #232323;
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+    margin: 30px 0;
+    text-align: center;
+}
+.main-offerings {
+    clear: both;
+    height: 213px;
+    margin: auto auto 20px;
+    overflow: hidden;
+    width: 570px;
+}
+.main-offerings a {
+    float: left;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    line-height: 1.5em;
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+}
+.main-offerings h3 {
+    color: #222;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 3px 0 0 10px;
+}
+.main-offerings h3:hover {
+    color: #69c;
+}
+.main-offerings h4 {
+    color: #c00;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.main-offerings p {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-top: 0;
+}
+.offerings .column h3, .offerings .column-end h3 {
+    border-bottom: 1px solid #e8e8e8;
+    color: #c00;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+    padding-bottom: 5px;
+}
+.offerings .column {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 95px;
+    margin-right: 30px;
+    padding: 0;
+    text-align: center;
+    width: 300px;
+}
+.offerings .column-end {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    width: 300px;
+}
+.offerings .column li, .offerings .column-end li {
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0;
+}
+.offerings .column a, .offerings .column-end a {
+    color: #222;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+}
+.offerings .column a:hover {
+    color: #69c;
+}
+.offerings .column small, .offerings .column-end small {
+    color: #666;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 12px;
+}
+footer {
+    display: block;
+    line-height: 1.5em;
+    margin: 30px auto;
+    text-align: center;
+    width: 825px;
+}
+footer h3 {
+    color: #c00;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+}
+footer li {
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    color: #69c;
+}
+footer p {
+    color: #999;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 10px;
+    margin-top: 50px;
+}
+a.hover-box {
+    box-shadow: 0 0 15px #333;
+}
+.hidden {
+    display: none;
+}
+div.extra {
+    clear: both;
+    font-family: "CrimsonSemiBold","Times New Roman",Georgia,serif;
+    height: 163px;
+    margin: 0 auto;
+    padding: 6px 0;
+    text-align: center;
+    width: 829px;
+}
+.extra span {
+    color: #336699;
+    text-decoration: underline;
+}
+.extra h1 {
+    clear: both;
+    color: #222;
+    font-family: "CrimsonSemibold","Times New Roman",Georgia,serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1em;
+    margin: 10px 0 15px;
+}
+.extra p {
+    color: #222;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    margin-top: 5px;
+    text-align: center;
+}
+.right-arrow {
+    position: relative;
+    right: 140px;
+    top: 5px;
+    z-index: 1;
+}
+.right-arrow-b {
+    position: absolute;
+    right: 510px;
+    top: 290px;
+    z-index: 1;
+}
+.left-arrow {
+    position: absolute;
+    right: 440px;
+    top: 290px;
+    z-index: 1;
+}
+.pbox {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #336699;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin-top: 5px;
+    padding: 7px 0;
+    text-align: center;
+}
